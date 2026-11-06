@@ -1,0 +1,5 @@
+# Bayesian Analysis Overview
+
+## Bayes' theorem
+
+$$ p(\theta \mid y) \propto p(y \mid \theta)\, p(\theta) $$

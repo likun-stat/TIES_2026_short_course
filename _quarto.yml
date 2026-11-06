@@ -1,0 +1,12 @@
+project:
+  type: default
+  execute-dir: project
+  output-dir: _output
+  render:
+    - slides/index.qmd
+
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    embed-resources: true

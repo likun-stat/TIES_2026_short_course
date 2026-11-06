@@ -1,0 +1,19 @@
+---
+title: "TIES 2026 Short Course"
+subtitle: "Dynamic Space-Time Modeling"
+author:
+  - name: Likun Zhang
+    affiliation: University of Missouri Columbia
+    email: likunemail.edu
+  - name: Joshua S. North
+    affiliation: Not sure if I can list it
+    email: jsnowynorth@gmail.com
+date: 2026-08-01
+format: revealjs
+---
+
+{{< include _01-intro.qmd >}}
+
+{{< include _02-bayes-overview.qmd >}}
+
+{{< include _03-data-model.qmd >}}
