@@ -1,1 +1,51 @@
+# ---------- Quarto ----------
 /.quarto/
+# _output/                 # remove this line if you use output-dir: docs
+/slides/*_files/         # intermediate figure/lib folders from rendering
+*.quarto_ipynb
+# _freeze/               # keep committed if you use `execute: freeze: auto`
+
+# ---------- R ----------
+.Rhistory
+.Rapp.history
+.RData
+.Rdata
+.Ruserdata
+.Rproj.user/
+*_cache/
+
+# renv (commit renv.lock and renv/activate.R, ignore the rest)
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# ---------- Editor / OS ----------
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---------- Data / results (optional) ----------
+# Ignore contents but keep the folders via .gitkeep
+# data/*
+# !data/.gitkeep
+# results/*
+# !results/.gitkeep

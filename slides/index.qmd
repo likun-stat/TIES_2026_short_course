@@ -8,7 +8,7 @@ author:
   - name: Joshua S. North
     affiliation: Not sure if I can list it
     email: jsnowynorth@gmail.com
-date: 2026-08-01
+date: 2026-12-08
 format: revealjs
 ---
 
